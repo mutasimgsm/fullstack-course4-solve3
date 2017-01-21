@@ -59,6 +59,15 @@ body {
 h3 {
   padding-top: 10px;
 }
+div > a:link {
+  font-size: 1.2em;
+  font-style: italic;
+}
+div > a:hover, div > a:focus {
+  font-style: italic;
+  font-size: 1.2em;
+  text-decoration: none;
+}
 /*MEDIA QUEERY MEDIUM DEVICS*/
 @media (min-width: 992px) and (max-width: 1199px) {
   .col-md-6 {
