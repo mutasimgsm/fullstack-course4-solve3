@@ -1,0 +1,71 @@
+body {
+  background-color: #FF6347;
+  font-size: 16px;
+  height: 1500px;
+}
+
+/* HEADER */
+#header-nav, #collapsable {
+  background-color: #FFA500;
+  border-radius: 0;
+  border-bottom: 1px outset #fff;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+/*RESTUARANT NAME*/
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #FF6347;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-header {
+  background-color: #F0E68C;
+}
+/*#nav-header {
+  border-radius: 0;
+  border: 0;
+}*/
+
+#nav-list {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#nav-list a {
+  color: #800000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+/*COLLAPSBLE LIST*/
+.style {
+  background-color: #C0C0C0;
+  margin: 0  15px 15px;
+}
+h3 {
+  padding-top: 10px;
+}
+/*MEDIA QUEERY MEDIUM DEVICS*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-6 {
+    width: 46%;
+    margin: 0 0 10px 15px;
+  }
+  .col3 {
+    width: 94%;
+  }
+}
